@@ -1,8 +1,5 @@
 # Comforting-Food
 Because life is too short.
- 
-## About
-
 
 ## Author
 
@@ -10,6 +7,3 @@ Because life is too short.
 
 - Github: [@itsisaac19](https://github.com/itsisaac19)
 
-## Show your support
-
-Please ⭐️ this repository if this app helped you!
