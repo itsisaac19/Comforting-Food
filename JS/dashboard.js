@@ -77,14 +77,14 @@ document.getElementById('navItems').children[2].addEventListener('click', functi
     window.location.href = 'https://comfortingfood.blog/portfolio.html'
 })
 document.getElementById('navItems').children[3].addEventListener('click', function() {
-    window.location.href = 'https://comfortingfood.blogrecipes.html'
+    window.location.href = 'https://comfortingfood.blog/recipes.html'
 })
 document.getElementById('navItems').children[4].addEventListener('click', function() {
-    window.location.href = 'https://comfortingfood.blogblogs.html'
+    window.location.href = 'https://comfortingfood.blog/blogs.html'
 })
 document.getElementById('navItems').children[5].addEventListener('click', function() {
-    window.location.href = 'https://comfortingfood.blogBlogs/about.html'
+    window.location.href = 'https://comfortingfood.blog/Blogs/about.html'
 })
 document.getElementById('navItems').children[6].addEventListener('click', function() {
-    window.location.href = 'https://comfortingfood.blogdashboard.html'
+    window.location.href = 'https://comfortingfood.blog/dashboard.html'
 })
