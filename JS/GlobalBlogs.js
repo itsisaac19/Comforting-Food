@@ -20,6 +20,6 @@ setBlogs()
 
 
 function broadCastBlog(blogKey) {
-    window.location.href = 'https://Blogs/'+ blogKey +'.html'
+    window.location.href = 'https://comfortingfood.blog/Blogs/'+ blogKey +'.html'
 }
 
