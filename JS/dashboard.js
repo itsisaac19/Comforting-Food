@@ -14,9 +14,7 @@ function setProp (id, author, readTime, date, title, previewText, width, height)
 }
 
 setProp('First', 'Linda Tsai', '4 min read', 'Jan 16, 2021', 'Best Chicken Tikki Methods and Prep','','4', '3');
-setProp('Third', 'Linda Tsai', '6 min read', 'Jan 19, 2021', 'Best Chicken Tikki Methods and Prep','','2', '3');
-setProp('Fourth', 'Linda Tsai', '4 min read', 'Jan 16, 2021', 'Best Chicken Tikki Methods and Prep','','2', '2');
-setProp('Fifth', 'Linda Tsai', '4 min read', 'Jan 16, 2021', 'Best Chicken Tikki Methods and Prep','','2', '2');
+
 
 
 
@@ -25,7 +23,7 @@ fetch('https://cdn.filestackcontent.com/SDtacK3gSKK1q1tggeQg')
     response.text().then(function(text) {
         var article;
         article = text;
-        setProp('Second', 'Linda Tsai', '2 min read', 'Jan 19, 2021', '', article,'2', '2');
+        setProp('Second', 'Linda Tsai', '2 min read', 'Jan 19, 2021', '', article,'3', '2');
         
     })
 })
@@ -66,27 +64,27 @@ window.onscroll = function() {
 
 
 document.getElementById('logoFinal').addEventListener('click', function() {
-    window.location.href = 'dashboard.html'
+    window.location.href = 'https://dashboard.html'
 })
 document.getElementById('navItems').children[0].addEventListener('click', function() {
-    window.location.href = 'dashboard.html'
+    window.location.href = 'https://dashboard.html'
 })
 
 
 // NAV BAR BUTTONS CLICKS LOCATIONS:
 
 document.getElementById('navItems').children[2].addEventListener('click', function() {
-    window.location.href = 'portfolio.html'
+    window.location.href = 'https://portfolio.html'
 })
 document.getElementById('navItems').children[3].addEventListener('click', function() {
-    window.location.href = 'recipes.html'
+    window.location.href = 'https://recipes.html'
 })
 document.getElementById('navItems').children[4].addEventListener('click', function() {
-    window.location.href = 'blogs.html'
+    window.location.href = 'https://blogs.html'
 })
 document.getElementById('navItems').children[5].addEventListener('click', function() {
-    window.location.href = 'blogs/about.html'
+    window.location.href = 'https://Blogs/about.html'
 })
 document.getElementById('navItems').children[6].addEventListener('click', function() {
-    window.location.href = 'dashboard.html'
+    window.location.href = 'https://dashboard.html'
 })

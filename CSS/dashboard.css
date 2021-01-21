@@ -99,21 +99,18 @@ body{overflow-x: hidden;}
 
 #pageWrapper > div {
     display: grid;
-    grid-template-rows: 50px 2fr 70px; 
+    grid-template-rows: 50px 2fr 70px;
     grid-template-columns: 1fr;
-    grid-template-areas: 
-    'topBar'
-    'spacer'
-    'bottomBar'
-    ;
-
+    grid-template-areas:
+        'topBar'
+        'spacer'
+        'bottomBar';
     background-color: #F5F5F5;
-
     position: relative;
     top: 0px;
     left: 0;
     transition: ease 0.11s;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 #pageWrapper > div:hover {
     cursor: pointer;
@@ -131,14 +128,13 @@ body{overflow-x: hidden;}
 
 .barDetails {
     display: grid;
-
-    grid-area: topBar; grid-template-areas: 'bruh';
-    grid-template-rows: 1fr; 
+    grid-area: topBar;
+    grid-template-areas:
+        'bruh';
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
-
     background: #a9a9a945;
-    border-radius: 7px 7px 0 0;
-
+    /* border-radius: 7px 7px 0 0; */
     font-family: quasimoda;
     color: #000000;
 }
@@ -156,18 +152,17 @@ body{overflow-x: hidden;}
 
 .postTitle {
     display: grid;
-    
-    grid-area: bottomBar;  place-items: center;
-    grid-template-rows: 1fr; 
+    grid-area: bottomBar;
+    place-items: center;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr;
-
-    background: #F0F0F0;     color: #2d2d2d;
-    border-radius: 0 7px 0 7px;
-
+    background: #F0F0F0;
+    color: #2d2d2d;
+    border-radius: 0 7px 0 0px;
     padding: 10px 15px 10px 15px;
-
-    width: 30%; min-width: 150px; max-width: 310px;
-
+    width: 30%;
+    min-width: 150px;
+    max-width: 310px;
     font-family: 'Playfair Display', sans-serif;
     font-weight: bold;
 }
@@ -247,8 +242,14 @@ body{overflow-x: hidden;}
     grid-column: span 4;
 }
 #Second {
-    grid-row: span 2;
+    grid-row: span 3;
     grid-column: span 2;
+    background-color: rgba(255, 235, 205, 0) !important;
+    border: 0.15rem rgb(207, 207, 207) solid;
+    border-radius: 0 !important;
+}
+#Second > div:nth-child(1) {
+    border-radius: 0 !important;
 }
 #Third {
     grid-row: span 3;

@@ -67,8 +67,7 @@ document.getElementById('navItems').children[2].addEventListener('click', functi
     window.location.href = 'https://blogs.html'
 })
 document.getElementById('navItems').children[3].addEventListener('click', function() {
-    broadCastBlog('AboutMeBlog')
-    window.location.href = 'https://blogs.html'
+    window.location.href = 'https://Blogs/about.html'
 })
 document.getElementById('navItems').children[4].addEventListener('click', function() {
     window.location.href = 'https://dashboard.html'
