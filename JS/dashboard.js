@@ -64,27 +64,27 @@ window.onscroll = function() {
 
 
 document.getElementById('logoFinal').addEventListener('click', function() {
-    window.location.href = 'https://dashboard.html'
+    window.location.href = 'https://comfortingfood.blog/dashboard.html'
 })
 document.getElementById('navItems').children[0].addEventListener('click', function() {
-    window.location.href = 'https://dashboard.html'
+    window.location.href = 'https://comfortingfood.blog/dashboard.html'
 })
 
 
 // NAV BAR BUTTONS CLICKS LOCATIONS:
 
 document.getElementById('navItems').children[2].addEventListener('click', function() {
-    window.location.href = 'https://portfolio.html'
+    window.location.href = 'https://comfortingfood.blog/portfolio.html'
 })
 document.getElementById('navItems').children[3].addEventListener('click', function() {
-    window.location.href = 'https://recipes.html'
+    window.location.href = 'https://comfortingfood.blogrecipes.html'
 })
 document.getElementById('navItems').children[4].addEventListener('click', function() {
-    window.location.href = 'https://blogs.html'
+    window.location.href = 'https://comfortingfood.blogblogs.html'
 })
 document.getElementById('navItems').children[5].addEventListener('click', function() {
-    window.location.href = 'https://Blogs/about.html'
+    window.location.href = 'https://comfortingfood.blogBlogs/about.html'
 })
 document.getElementById('navItems').children[6].addEventListener('click', function() {
-    window.location.href = 'https://dashboard.html'
+    window.location.href = 'https://comfortingfood.blogdashboard.html'
 })
