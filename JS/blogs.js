@@ -1,4 +1,4 @@
-
+/*
 var expanded = false
 function expandViewOfSidebar () {
     
@@ -20,7 +20,7 @@ document.getElementById('hinterClose').addEventListener('click', function() {
 
 
 
-/*
+
 
 function getBlog (key) {
     console.log(localStorage.getItem(key))

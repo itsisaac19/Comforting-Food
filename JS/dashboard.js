@@ -28,11 +28,6 @@ fetch('https://cdn.filestackcontent.com/SDtacK3gSKK1q1tggeQg')
     })
 })
 
-function important() {
-    document.getElementById('x-sdksdsn').style.gridRow = null
-    document.getElementById('x-sdksdsn').style.gridRow = 'span 2'
-}
-important()
 
 
 

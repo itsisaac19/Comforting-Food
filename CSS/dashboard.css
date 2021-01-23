@@ -1,5 +1,13 @@
 body{overflow-x: hidden;}
 
+
+:root {
+    --lightgreen:#bbd8cc;
+    --green: #708D81;
+    --purple: #B7B5E4;
+    --dark: #544E61;
+    --sea: #708b8d;
+}
 /*TOP NAVIGATION*/
 #topBarNav {
     position: fixed;
@@ -37,7 +45,7 @@ body{overflow-x: hidden;}
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgb(82, 82, 82);
+    background-color: var(--green);
     visibility: hidden;
     transition: all 0.2s ease-in-out;
 }
@@ -157,7 +165,7 @@ body{overflow-x: hidden;}
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     background: #F0F0F0;
-    color: #2d2d2d;
+    color: white;
     border-radius: 0 7px 0 0px;
     padding: 10px 15px 10px 15px;
     width: 30%;
@@ -245,7 +253,7 @@ body{overflow-x: hidden;}
     grid-row: span 3;
     grid-column: span 2;
     background-color: rgba(255, 235, 205, 0) !important;
-    border: 0.15rem rgb(207, 207, 207) solid;
+    border: 1px rgb(207, 207, 207) solid;
     border-radius: 0 !important;
 }
 #Second > div:nth-child(1) {
