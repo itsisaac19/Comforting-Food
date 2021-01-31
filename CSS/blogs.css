@@ -9,7 +9,7 @@ body{overflow-x: hidden;}
     left: 50%;
     transform: translateX(-50%);
     top: 30px;
-    z-index: 102;
+    z-index: 102; 
 }
 .backgroundsticky > p {
     font-family: 'Playfair Display';
@@ -159,12 +159,13 @@ body{overflow-x: hidden;}
 
 #logoWrap {
     position: fixed;
-    top: 30px;
+    top: 38px;
     right: 130px;
     transition: ease 0.3s;
     z-index: 100;
 }
 #logoFinal {
+    height: 70px;
     transition: ease 0.3s;
 }
 #logoFinal:hover {
@@ -193,7 +194,7 @@ body{overflow-x: hidden;}
 
 #navItems {
     position: absolute;
-    top: 250px; right: 10px; bottom: 350px; left: 10px;
+    top: 230px; right: 10px; height: 47%;; left: 10px;
     
 
     display: grid;
