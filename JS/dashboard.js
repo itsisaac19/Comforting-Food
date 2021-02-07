@@ -13,7 +13,7 @@ function setProp (id, author, readTime, date, title, previewText, width, height)
 
 }
 
-setProp('First', 'Linda Tsai', '4 min read', 'Jan 16, 2021', 'Best Chicken Tikki Methods and Prep','','4', '3');
+setProp('First', 'Linda Tsai', '4 min read', 'Feb 7, 2021', 'Best Chicken Tortilla Soup Recipe','','4', '3');
 
 
 

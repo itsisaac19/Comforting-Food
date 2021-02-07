@@ -19,7 +19,7 @@ body{overflow-x: hidden;}
     font-weight: 600; font-size: 55px;
 }
 #maintext > p {
-    font-family: quasimoda, sans-serif;
+    font-family: cleanlight;
 }
 /*BUTTONS*/ 
 #mainbuttons {

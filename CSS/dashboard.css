@@ -26,11 +26,11 @@ body{overflow-x: hidden;}
     grid-template-columns:  350px  120px repeat(6, 1fr) 40px;
     grid-template-areas: 'title logo spacer por rec blo abo con spacer2';
 
-    font-family: quasimoda, sans-serif;
+    font-family: cleanlight;
 }
 #navItems p {
     position: relative;
-    font-family: quasimoda, sans-serif;
+    font-family: cleanlight;
     transition: all 0.2s ease-in-out;
     color: rgb(77, 77, 77);
 }
@@ -130,8 +130,9 @@ body{overflow-x: hidden;}
 }
 
 #pageWrapper > div:nth-child(1) {
-    background: url(/FoodImgs/delish-chicken-tikka-masala-jpg-1526059261.jpg) no-repeat bottom;
+    background: url(/FoodImgs/cuttingboard\ with\ colorful2.jpeg) no-repeat bottom;
     background-size: cover;
+    background-position: center;
 }
 
 .barDetails {
