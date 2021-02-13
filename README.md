@@ -1,5 +1,5 @@
 # Comforting-Food
-Because life is too short.
+Comforting Food for life.
 
 ## Author
 

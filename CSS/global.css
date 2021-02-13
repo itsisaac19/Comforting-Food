@@ -1,8 +1,82 @@
-@font-face {
-    font-family: cleanlight;
-    src: url(/FONTS/CircularStdBook.ttf);
+.globaltopwrapper {
+    position: absolute;
+    top: 0; right: 0; left: 0;
+
+    height: 700px;
+
+    background-color: #F8F6EC;
+    border-bottom: 1px solid #CBC59C;
+}
+.globalnavbar {
+    position:  absolute;
+    top: 10px; left: 50px; right: 0;
+
+    height: 100px;
+
+    display: grid;
+    grid-template-columns: 300px 200px 200px 200px 1fr;
+    grid-template-areas: 'title recipes portfolio about spacer';
+}
+.globalnavbar div:nth-child(1), .globalnavbar div:nth-child(2), .globalnavbar div:nth-child(3), .globalnavbar div:nth-child(4) {
+    margin: auto;
+}
+.navbartitle {
+    cursor: pointer;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 28px;
 }
 @font-face {
-    font-family: clean;
-    src: url(/FONTS/CircularStdBold.ttf);
+    font-family: cleanlight;
+    src: url(/Fonts/CircularStdBook.ttf);
+}
+.navbaritem {
+    cursor: pointer;
+    font-family: cleanlight;
+    color: #404040;
+}
+.item1 {
+    grid-area: recipes;
+}
+.item2{
+    grid-area: portfolio;
+}
+.item3 {
+    grid-area: about;
+}
+.sliderind {
+    grid-area: recipes;
+    background-color: #708D81;
+    height: 1px;
+    width: 50px;
+
+    margin: auto auto 30px auto;
+}
+
+.globaltitle {
+    position: absolute;
+    bottom: 200px; left: 80px;
+
+    font: normal normal bold 70px Playfair Display;
+}
+.globalabstractpara {
+    font: normal normal normal 20px Europa-Regular; line-height: 25px;
+    position: absolute;
+    left: 500px;
+    bottom: 250px;
+}
+@media only screen and (max-width: 1445px) {
+    .globalabstractpara {
+        display: none;
+    }
+  }
+
+.globaldownarrow {
+    position: absolute;
+    bottom: 60px; left: 80px;
+}
+.globalimageart {
+    position: absolute;
+    right: 200px;
+    bottom: 120px;
 }
