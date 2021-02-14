@@ -28,7 +28,7 @@
 }
 @font-face {
     font-family: cleanlight;
-    src: url(/Fonts/CircularStdBook.ttf);
+    src: url(/cleanlight.ttf);
 }
 .navbaritem {
     cursor: pointer;
@@ -110,5 +110,8 @@
     }
     .navbaritem, .sliderind {
         display: none;
+    }
+    .globalnavbar > div:nth-child(1) {
+        margin-left: 25px;
     }
 }
