@@ -51,10 +51,42 @@ body {
 .imageWrap {
     position: absolute;
     right: 15%;
-    top: 50%; transform: translateY(-50%);
+    bottom: 50%; transform: translateY(50%);
 
     width: 16%; min-width: 300px; max-width: 360px;
 }
 .imageWrap img {
     width: 100%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .imageWrap{
+        min-width: 150px;
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .imageWrap{
+        position: absolute;
+        bottom: 50px;
+        max-width: 250px;
+        min-width: 200px;
+        width: 40%;
+        left: 50%; transform: translateX(-50%);
+    }
+    .maintext h1{
+        font-size: 50px;
+        width: 100%;
+    }
+    .landingPageTextWrapper {
+        width: 80%;
+    }
+    .mainbuttons {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 0px;
+        row-gap: 20px;
+    }
 }

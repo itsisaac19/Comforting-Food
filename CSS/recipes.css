@@ -210,11 +210,16 @@ body {
     margin-top: 3px;
     font: normal normal 300 14px Europa-Light;
 }
-
+@media only screen and (max-width: 1385px) {
+    .typewrapper {
+        grid-template-columns: 254px 60px repeat(4, 1fr);
+    }
+}
 @media only screen and (max-width: 1045px) {
     .squareinfo {
         display: none;
     }
+
   }
 
 .toprecipesalt {
