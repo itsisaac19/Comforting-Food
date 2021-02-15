@@ -84,6 +84,7 @@ body {
     }
     .landingPageTextWrapper {
         width: 80%;
+        grid-template-rows: 1fr 120px;
     }
     .mainbuttons {
         grid-template-columns: 1fr;

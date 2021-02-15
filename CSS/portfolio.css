@@ -129,6 +129,9 @@ body {
     }
 }
 
+.sliderind {
+    grid-area: portfolio;
+}
 
 @media only screen and (max-width: 900px) {
     .sortwrapper {
