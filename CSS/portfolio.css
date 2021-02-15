@@ -132,10 +132,11 @@ body {
 
 @media only screen and (max-width: 900px) {
     .sortwrapper {
-        top: 675px;
+        top: 475px;
         left: 20px;
         right: 20px;
-        gap: 10px;
+        row-gap: 20px;
+        column-gap: 10px;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: '1 2 3 4' 'search search search search';
@@ -145,7 +146,7 @@ body {
         border-radius: 25px;
     }
     .foodouter {
-        top: 840px;
+        top: 630px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         height: 1320px;
@@ -169,14 +170,13 @@ body {
     body {
         height: 2180px;
     }
-    .globaltitle, .globaldownarrow {
-        left: 50px !important;
-        font-size: 50px !important;
+    .globaltopwrapper {
+        height: 500px !important;
     }
-    .navbartitle {
-        margin-left: 0 !important;
+    .globaltitle {
+        bottom: 180px !important;
     }
-    .hamburgernav {
-        margin-right: 200px !important;
+    .globaldownarrow {
+        bottom: 70px !important;
     }
 }

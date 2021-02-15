@@ -127,13 +127,15 @@ body {
     top: 100px;
     left: 328px;
     right: 3%;
-    height: 1000px;
+    height: 1500px;
     max-width: 1130px;
-    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    display: grid;
     /* justify-content: flex-start; */
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex: 1; */
     gap: 17px;
 }
 .square {
@@ -157,12 +159,14 @@ body {
 }
 
 .onespanrow {
-    height: 150px;
+    grid-row: span 1;
+    /* height: 150px; */
     /* display: flex; */
     /* flex: 0 0 46%; */
 }
 .twospanrow {
-    height: 300px;
+    grid-row: span 2;
+    /* height: 300px; */
     /* flex: 0 0 100%; */
 }
 .threespanrow {
@@ -179,7 +183,7 @@ body {
     width: 200px;
 }
 .twospancolumn {
-    width: 50%;
+    grid-column: span 2;
 }
 .threespancolumn {
     width: 600px;
@@ -274,7 +278,29 @@ body {
 
   @media only screen and (max-width: 500px) {
       .type {
-          font-size: 15px;
+          font-size: 14px;
       }
+      .recipes-outer {
+          top: 650px;
+          left: 20px;
+          right: 40px;
+      }
+      .details {
+          margin: 20px;
+      }
+      .square {
+        grid-column: span 1;
+        grid-row: span 1;
 
+        width: 100% !important;
+        height: 100% !important;
+      }
+      .outercontent {
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-template-rows: repeat(6, 1fr);
+          gap: 15px;
+          flex-direction: column;
+          height: 1000px;
+      }
   }

@@ -78,7 +78,7 @@ function load_recipes(type, data) {
 
         setTimeout(function() {
           var squares = document.getElementsByClassName('square').length;
-          document.getElementsByClassName('outercontent')[0].style.height = (squares * 205) + 'px'
+          //document.getElementsByClassName('outercontent')[0].style.height = (squares * 205) + 'px'
         })
 
       } else {
@@ -89,7 +89,7 @@ function load_recipes(type, data) {
 
         setTimeout(function() {
           var squares = document.getElementsByClassName('square').length;
-          document.getElementsByClassName('outercontent')[0].style.height =  '1000px'
+          //document.getElementsByClassName('outercontent')[0].style.height =  '1000px'
         })
       }
     }
