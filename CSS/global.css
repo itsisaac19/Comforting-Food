@@ -26,14 +26,10 @@
     font-weight: bold;
     font-size: 28px;
 }
-@font-face {
-    font-family: cleanlight;
-    src: url(/cleanlight.ttf);
-}
 .navbaritem {
     cursor: pointer;
-    font-family: cleanlight;
-    color: #404040;
+    font-family: 'Circular Std Book', sans-serif;
+    color: #000000;
 }
 .item1 {
     grid-area: recipes;
@@ -45,7 +41,6 @@
     grid-area: about;
 }
 .sliderind {
-    grid-area: recipes;
     background-color: #708D81;
     height: 1px;
     width: 50px;

@@ -2,10 +2,6 @@ body {
     background-color: #FCF8E9;
     height: 2000px;
 }
-@font-face {
-    font-family: cleanlight;
-    src: url(http://127.0.0.1:5500/cleanlight.ttf);
-}
 .recipes-outer {
     position: absolute; /*border: solid 2px;*/
 
@@ -176,7 +172,9 @@ body {
     height: 417px;
 }
 
-
+.sliderind {
+    grid-area: recipes;
+}
 .onespancolumn {
     width: 200px;
 }
@@ -203,7 +201,7 @@ body {
     color: rgb(235, 235, 235);
 }
 .squaretitle {
-    font: normal normal bold 30px Circular Std;
+    font: normal normal bold 30px 'Circular Std Bold';
 }
 .squareinfo {
     max-height: 36px;
