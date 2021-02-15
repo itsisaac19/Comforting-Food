@@ -168,6 +168,13 @@ function load_recipes(type, data) {
     
   }
 
+  for (i = 0; i < document.getElementsByClassName('square').length; i++) {
+    document.getElementsByClassName('square')[i].addEventListener('click', function() {
+      var urltitle = this.children[0].children[0].innerHTML.toLowerCase()
+      var url = urltitle.replace(/\s/g, "-") + '.html';
+      window.location.href = '/articles/' + url
+    })
+  }
 }
 
 

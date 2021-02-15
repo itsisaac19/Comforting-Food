@@ -1,0 +1,23 @@
+[ {
+    "recipes" :{
+      "types": {
+        "meat": {
+          "1": {
+            "title": "Chicken Tortilla Soup" ,
+            "info":"Your family will love the colorful ingredients and flavors that burst through this warm and tasty soup",
+            "css": ["whitesquare", "twospanrow", "twospancolumn"]
+          }
+        },
+        "soup": {
+
+        }
+      },
+      "all":{
+        "1": {
+          "title": "Chicken Tortilla Soup" ,
+          "info":"Your family will love the colorful ingredients and flavors that burst through this warm and tasty soup",
+          "css": ["whitesquare", "twospanrow", "twospancolumn"]
+        }
+      }
+    }
+  }]

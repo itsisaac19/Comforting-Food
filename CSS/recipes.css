@@ -142,10 +142,21 @@ body {
     cursor: pointer;
     /* flex: 0 0 100%; */
     border-radius: 20px;
+    transition: ease 0.4s;
+}
+.square:hover {
+    transform: translateY(-3px);
+}
+.square:active {
+    transform: translateY(0px);
 }
 .whitesquare {
     background-color: white;
     border: 1px solid #D8D8D8;
+    box-shadow: 0px 2px 20px #5d5d5d0e;
+}
+.whitesquare:hover {
+    box-shadow: 0px 2px 20px #5d5d5d21;
 }
 .whitesquare > div {
     color: rgb(26, 26, 26);
