@@ -27,7 +27,7 @@ body {
     width: calc(100% - 30px);
     height: 50px;
 
-    font: normal normal normal 20px Europa-Regular;
+    font: normal normal normal 20px europa;
 
     border-radius: 20px;
     border:  1px solid #ADADAD;;
@@ -61,7 +61,7 @@ body {
 
     height: calc(100%);
     width: 100%;
-    font: normal normal normal 15px Europa-Regular;
+    font: normal normal normal 15px europa;
 
     text-align: left;
     text-indent: 45px;
@@ -98,7 +98,7 @@ body {
     padding:  0 20px 0 20px;
     margin: auto;
     color: white;
-    font: normal normal normal 20px Europa-Regular;
+    font: normal normal normal 20px europa;
 }
 .cookinglevel img {
     margin: auto auto auto 0;
@@ -110,7 +110,7 @@ body {
     display: none; place-items: center left; 
     padding: 0 0 0 20px;
     transition: ease 0.2s;
-    font: normal normal normal 15px Europa-Regular;
+    font: normal normal normal 15px europa;
 }
 .levels:hover {
     width:auto;
@@ -206,7 +206,7 @@ body {
 .squareinfo {
     max-height: 36px;
     margin-top: 3px;
-    font: normal normal 300 14px Europa-Light;
+    font: normal normal 300 14px europa;
 }
 @media only screen and (max-width: 1385px) {
     .typewrapper {

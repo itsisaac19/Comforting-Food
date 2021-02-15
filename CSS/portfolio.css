@@ -35,7 +35,7 @@ body {
     border-radius: 30px;
     background-color: #FCF8E9;
 
-    font: normal normal normal 18px Europa-Regular;
+    font: normal normal normal 18px europa;
 }
 .type1 {
     grid-area: 1;
@@ -59,13 +59,13 @@ body {
     border-radius: 30px;
     background-color: #FCF8E9;
 
-    font: normal normal normal 18px Europa-Regular;
+    font: normal normal normal 18px europa;
 }
 .searchbox img {
     margin: auto auto auto 25px;
 }
 #searchfood {
-    font: normal normal normal 15px Europa-Regular;
+    font: normal normal normal 15px europa;
     background-color: #fcf8e900;
     border: none;
     text-indent: 30px;

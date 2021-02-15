@@ -55,7 +55,7 @@
     font: normal normal bold 70px Playfair Display;
 }
 .globalabstractpara {
-    font: normal normal normal 20px Europa-Regular; line-height: 25px;
+    font: normal normal normal 20px europa; line-height: 25px;
     position: absolute;
     left: 500px;
     bottom: 250px;
