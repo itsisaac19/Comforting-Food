@@ -172,7 +172,7 @@ function load_recipes(type, data) {
     document.getElementsByClassName('square')[i].addEventListener('click', function() {
       var urltitle = this.children[0].children[0].innerHTML.toLowerCase()
       var url = urltitle.replace(/\s/g, "-") + '.html';
-      window.location.href = '/articles/' + url
+      window.location.href = '/Articles/' + url
     })
   }
 }
